@@ -11,5 +11,9 @@ class world {
 	function vivod() {
 		return $this -> res;
 	}
+	function __destruct() {
+		echo "<br>";
+		echo "pochistili";
+	}
 }
 ?>
